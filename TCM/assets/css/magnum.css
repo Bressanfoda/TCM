@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: column;
+    color: rgb(236, 236, 236);
+}
+section.telaInteira {
+  
+    width: 100%;
+    background-color: rgb(36, 36, 44);
+    padding-top: 6vh;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.imagem {
+    width: 50%;
+}
+section.texto {
+    width: 40%;
+}
+section.imagem img {
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    
+    section.telaInteira {
+        flex-direction: column;
+        padding: 10vh
+    }
+    section.texto {
+        width: 100%;
+    }
+    section.imagem {
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,50 @@
+main {
+    width: 100%;
+    color: white;
+}
+#texto3{
+    margin-left: 2vw;
+}
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #201c1c;
+    height: 100vh;
+    padding: 2vh;
+}
+.imagem {
+    width: 40%;
+}
+.texto {
+    width: 50%;
+    padding: 2vw;
+}
+.imagem img {
+    height: 100%;
+}
+@media screen and (max-width: 700px) {
+
+    .principal{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: auto;
+    }
+    .imagem {
+        height: auto;
+        width: 100%;
+    }
+    .imagem img {
+        width: 100%;
+    }
+    div #texto {
+        width: 100%;
+    }
+    .texto {
+        width: 100%;
+    }
+    #texto3{
+        margin-left: auto;
+    }
+}
